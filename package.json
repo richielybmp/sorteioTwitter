@@ -1,0 +1,25 @@
+{
+  "name": "twitterapisorteio",
+  "version": "1.0.0",
+  "description": "Api para realizar sorteios no twitter",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "twitter",
+    "api"
+  ],
+  "author": "Richiely Paiva",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
